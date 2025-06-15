@@ -35,13 +35,13 @@ const Footer = ({ handlePayRentClick, handleContactClick }) => {
                 <Phone size={18} className="mr-3 text-slate-400" />
                 <div>
                   <p className="font-medium">(303) 945-2022</p>
-                  <p className="text-sm text-slate-400">Monday - Friday, 9AM - 5PM</p>
+                  <p className="text-sm text-slate-400">Monday - Thursday, 9AM - 5PM</p>
                 </div>
               </div>
               <div className="flex items-center text-slate-300 hover:text-white transition-colors">
                 <Mail size={18} className="mr-3 text-slate-400" />
                 <div>
-                  <p className="font-medium">info@deancallanpm.com</p>
+                  <p className="font-medium">dccpm@deancallan.com</p>
                   <p className="text-sm text-slate-400">General inquiries</p>
                 </div>
               </div>

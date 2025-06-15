@@ -19,7 +19,7 @@ const ContactBar = ({ handleContactClick }) => {
             </div>
             <div className="flex items-center hover:scale-105 transition-transform">
               <Mail size={20} className="mr-2" />
-              <span className="font-medium">info@deancallanpm.com</span>
+              <span className="font-medium">dccpm@deancallan.com</span>
             </div>
           </div>
           <button 
