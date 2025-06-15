@@ -77,7 +77,7 @@ const AboutSection = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <div className="absolute bottom-4 left-4 text-white">
                       <p className="text-lg font-bold mb-1">Koko Plaza</p>
-                      <p className="text-sm opacity-90">Boulder, CO</p>
+                      <p className="text-sm opacity-90">Louisville, CO</p>
                     </div>
                     <div className="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
                       Mixed Use
