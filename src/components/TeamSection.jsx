@@ -24,7 +24,7 @@ const TeamSection = () => {
     {
       image: "/IMG_5009.jpg",
       name: "Armondo Mestas",
-      role: "Operations Manager",
+      role: "Day Porter",
       description: "Ensuring smooth operations and quality service throughout Boulder County"
     },
     {
