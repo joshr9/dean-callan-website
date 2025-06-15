@@ -5,44 +5,44 @@ const TeamSection = () => {
   const teamMembers = [
     {
       image: "/GC 3.jpg",
-      name: "Team Member",
-      role: "Property Manager",
+      name: "Gina Calley",
+      role: "President",
       description: "Dedicated to exceptional service and client satisfaction in Boulder County"
     },
     {
       image: "/IM_5245.jpg",
-      name: "Team Member",
-      role: "Maintenance Coordinator",
+      name: "Mario Escobar",
+      role: "Building Systems Manager",
       description: "Expert in Boulder property maintenance and tenant relations"
     },
     {
       image: "/IMG_4831.jpg",
-      name: "Team Member",
-      role: "Client Relations",
+      name: "Tammy Banks",
+      role: "Property Manager",
       description: "Committed to building lasting Boulder County client relationships"
     },
     {
       image: "/IMG_5009.jpg",
-      name: "Team Member",
+      name: "Armondo Mestas",
       role: "Operations Manager",
       description: "Ensuring smooth operations and quality service throughout Boulder County"
     },
     {
       image: "/IMG_5059.jpg",
-      name: "Team Member",
-      role: "Financial Specialist",
+      name: "Lacey Wall",
+      role: "Administrative",
       description: "Managing finances and ensuring transparency for Boulder properties"
     },
     {
       image: "/IMG_5133.jpg",
-      name: "Team Member",
-      role: "Property Inspector",
+      name: "Emilio Escobar",
+      role: "Day Porter",
       description: "Maintaining Boulder County property standards and compliance"
     },
     {
       image: "/IMG_5289.jpg",
-      name: "Team Member",
-      role: "Customer Service",
+      name: "Gavin Harris",
+      role: "Day Porter",
       description: "Providing exceptional support and communication to Boulder County clients"
     }
   ];
@@ -64,7 +64,7 @@ const TeamSection = () => {
       icon: Star,
       number: "Full",
       title: "Service Management",
-      description: "Complete Boulder property management solutions from A to Z"
+      description: "Customizable Boulder property management solutions from A to Z"
     }
   ];
 

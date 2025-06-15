@@ -48,17 +48,17 @@ const AboutSection = () => {
               
               {/* Property Grid - Larger Layout */}
               <div className="grid grid-cols-1 gap-6 mb-6">
-                {/* 1615 Pearl Street - Featured */}
+                {/* 2585 Trail Ridge - Featured */}
                 <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
                   <img 
-                    src="/1615PearlStreet.jpg" 
-                    alt="1615 Pearl Street - Boulder Property Management by Dean Callan PM" 
+                    src="/2585TrailRidge.jpg" 
+                    alt="2585 Trail Ridge - Boulder Property Management by Dean Callan PM" 
                     className="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
-                    <p className="text-lg font-bold mb-1">1615 Pearl Street</p>
-                    <p className="text-sm opacity-90">Premier Boulder Commercial Property</p>
+                    <p className="text-lg font-bold mb-1">2585 Trail Ridge</p>
+                    <p className="text-sm opacity-90">Premier Lafayette Commercial Property</p>
                   </div>
                   <div className="absolute top-4 right-4 bg-brand-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
                     Commercial
