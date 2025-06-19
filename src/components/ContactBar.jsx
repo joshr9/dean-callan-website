@@ -13,14 +13,22 @@ const ContactBar = ({ handleContactClick }) => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between text-white">
           <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 mb-4 md:mb-0">
-            <div className="flex items-center hover:scale-105 transition-transform">
+            <a 
+              href="tel:+13039452022"
+              className="flex items-center hover:scale-105 transition-transform"
+              style={{textDecoration: 'none', color: 'inherit'}}
+            >
               <Phone size={20} className="mr-2" />
               <span className="font-medium">(303) 945-2022</span>
-            </div>
-            <div className="flex items-center hover:scale-105 transition-transform">
+            </a>
+            <a 
+              href="mailto:gcalley@deancallan.com?subject=General Inquiry"
+              className="flex items-center hover:scale-105 transition-transform"
+              style={{textDecoration: 'none', color: 'inherit'}}
+            >
               <Mail size={20} className="mr-2" />
-              <span className="font-medium">dccpm@deancallan.com</span>
-            </div>
+              <span className="font-medium">gcalley@deancallan.com</span>
+            </a>
           </div>
           <button 
             className="bg-white/20 backdrop-blur-sm px-6 py-2 rounded-lg hover:bg-white/30 transition-all duration-300 font-medium hover:scale-105" 

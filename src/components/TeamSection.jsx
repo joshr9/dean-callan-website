@@ -7,43 +7,41 @@ const TeamSection = () => {
       image: "/GC 3.jpg",
       name: "Gina Calley",
       role: "President",
-      description: "Dedicated to exceptional service and client satisfaction in Boulder County"
-    },
-    {
-      image: "/IM_5245.jpg",
-      name: "Mario Escobar",
-      role: "Building Systems Manager",
-      description: "Expert in Boulder property maintenance and tenant relations"
     },
     {
       image: "/IMG_4831.jpg",
       name: "Tammy Banks",
       role: "Property Manager",
-      description: "Committed to building lasting Boulder County client relationships"
-    },
-    {
-      image: "/IMG_5009.jpg",
-      name: "Armondo Mestas",
-      role: "Day Porter",
-      description: "Ensuring smooth operations and quality service throughout Boulder County"
     },
     {
       image: "/IMG_5059.jpg",
       name: "Lacey Wall",
       role: "Administrative",
-      description: "Managing finances and ensuring transparency for Boulder properties"
+    },
+    {
+      image: "/IM_5245.jpg",
+      name: "Mario Escobar",
+      role: "Building Systems Manager",
+    },
+    {
+      image: "Norm.jpg",
+      name: "Norm McGinnis",
+      role: "Building Systems Manager",
     },
     {
       image: "/IMG_5133.jpg",
       name: "Emilio Escobar",
-      role: "Day Porter",
-      description: "Maintaining Boulder County property standards and compliance"
+      role: "Maintenance Assistant",
     },
     {
       image: "/IMG_5289.jpg",
       name: "Gavin Harris",
-      role: "Day Porter",
-      description: "Providing exceptional support and communication to Boulder County clients"
+      role: "Maintenance Assistant",
+    },
+    {
+      image: "/IMG_5009.jpg",
+      name: "Armondo Mestas",
+      role: "Maintenance Assistant",
     }
   ];
 
