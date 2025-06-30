@@ -18,6 +18,12 @@ const TeamSection = () => {
       name: "Lacey Wall",
       role: "Administrative",
     },
+      {
+      image: "/Lauri.jpg",
+      name: "Lauri Vainio",
+      role: "Property Accountant",
+      imageStyle: { objectPosition: 'center 5%' }
+    },
     {
       image: "/IM_5245.jpg",
       name: "Mario Escobar",
@@ -94,6 +100,8 @@ const TeamSection = () => {
                   src={member.image}
                   alt={`Boulder Property Management Team Member - ${member.role}`}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  style={member.imageStyle || {}}
+
                 />
               </div>
               <div className="p-6 text-center">
