@@ -21,7 +21,7 @@ const TeamSection = () => {
       {
       image: "/Lauri.jpg",
       name: "Lauri Vainio",
-      role: "Property Accountant",
+      role: "Finance Accounting Advisor",
       imageStyle: { objectPosition: 'center 5%' }
     },
     {
