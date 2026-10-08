@@ -77,7 +77,7 @@ const TeamSection = () => {
         </div>
         
         {/* Team Members Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-20">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {teamMembers.map((member, index) => (
             <div key={index} className="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-slate-100 hover:-translate-y-2">
               <div className="aspect-square overflow-hidden">
