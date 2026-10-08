@@ -25,28 +25,13 @@ const TeamSection = () => {
       imageStyle: { objectPosition: 'center 5%' }
     },
     {
-      image: "/IM_5245.jpg",
-      name: "Mario Escobar",
-      role: "Building Systems Manager",
-    },
-    {
       image: "Norm.jpg",
       name: "Norm McGinnis",
       role: "Building Systems Manager",
     },
     {
-      image: "/IMG_5133.jpg",
-      name: "Emilio Escobar",
-      role: "Maintenance Assistant",
-    },
-    {
       image: "/IMG_5289.jpg",
       name: "Gavin Harris",
-      role: "Maintenance Assistant",
-    },
-    {
-      image: "/IMG_5009.jpg",
-      name: "Armondo Mestas",
       role: "Maintenance Assistant",
     }
   ];
